@@ -9,6 +9,8 @@ from hardware_pkg.lib import ms5837
 class DepthSensorNode(Node):
     def __init__(self):
         super().__init__('depth_sensor_node')
+        self.get_logger().info("Depth Node init!!!!!!!!!!!!!!!")
+
         self.pressure_publisher = self.create_publisher(FluidPressure, 'pressure', 10)
         self.temperature_publisher = self.create_publisher(Temperature, 'temperature', 10)
         self.depth_publisher = self.create_publisher(PointStamped, 'depth', 10)

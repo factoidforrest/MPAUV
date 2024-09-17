@@ -4,3 +4,6 @@ source;share/hardware_pkg/hook/pythonpath.sh
 source;share/hardware_pkg/hook/ament_prefix_path.ps1
 source;share/hardware_pkg/hook/ament_prefix_path.dsv
 source;share/hardware_pkg/hook/ament_prefix_path.sh
+source;../../build/hardware_pkg/share/hardware_pkg/hook/pythonpath_develop.ps1
+source;../../build/hardware_pkg/share/hardware_pkg/hook/pythonpath_develop.dsv
+source;../../build/hardware_pkg/share/hardware_pkg/hook/pythonpath_develop.sh

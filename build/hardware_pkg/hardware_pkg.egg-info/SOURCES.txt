@@ -10,9 +10,13 @@ setup.py
 ../../build/hardware_pkg/hardware_pkg.egg-info/zip-safe
 hardware_pkg/__init__.py
 hardware_pkg/depth_sensor.py
+hardware_pkg.egg-info/PKG-INFO
+hardware_pkg.egg-info/SOURCES.txt
+hardware_pkg.egg-info/dependency_links.txt
+hardware_pkg.egg-info/entry_points.txt
+hardware_pkg.egg-info/requires.txt
+hardware_pkg.egg-info/top_level.txt
+hardware_pkg.egg-info/zip-safe
 hardware_pkg/lib/__init__.py
 hardware_pkg/lib/ms5837.py
 resource/hardware_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

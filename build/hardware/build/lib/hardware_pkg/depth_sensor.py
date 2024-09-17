@@ -9,12 +9,16 @@ from hardware_pkg.lib import ms5837
 class DepthSensorNode(Node):
     def __init__(self):
         super().__init__('depth_sensor_node')
+        self.get_logger().info("Depth node init")
+
         self.pressure_publisher = self.create_publisher(FluidPressure, 'pressure', 10)
         self.temperature_publisher = self.create_publisher(Temperature, 'temperature', 10)
         self.depth_publisher = self.create_publisher(PointStamped, 'depth', 10)
         self.timer = self.create_timer(0.1, self.timer_callback)  # 10Hz
         
         self.sensor = ms5837.MS5837_30BA()  # Default I2C bus is 1 (Raspberry Pi 3)
+        self.get_logger().info("imported depth sensor library")
+
         if not self.sensor.init():
             self.get_logger().error("Sensor could not be initialized")
             rclpy.shutdown()
