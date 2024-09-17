@@ -1,0 +1,13 @@
+{
+  "package_name": "vizanti_msgs",
+  "non_idl_tuples": [
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/GetNodeParameters.srv",
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/SetNodeParameter.srv",
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/SaveMap.srv",
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/LoadMap.srv",
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/RecordRosbag.srv",
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/ManageNode.srv",
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/ListPackages.srv",
+    "/home/ros/colcon_ws/src/vizanti/vizanti_msgs:srv/ListExecutables.srv"
+  ]
+}

@@ -1,0 +1,3 @@
+adafruit-circuitpython-ms5837
+setuptools
+smbus2
